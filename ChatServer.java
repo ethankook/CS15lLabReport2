@@ -11,7 +11,7 @@ class Handler implements URLHandler {
             return str;
         }
         else {
-            if (url.getPath().contains("/add")) {
+            if (url.getPath().contains("/add-message")) {
                 String[] message = url.getQuery().split("&");   //[0] = s=Hello, [1] = user=jpolitz
                 String[] User1 = message[0].split("=");     //[0] = s, [1] = Hello
                 String[] User2 = message[1].split("=");     //[0] = user, [1] = jpolitz
