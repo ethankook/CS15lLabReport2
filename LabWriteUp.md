@@ -1,5 +1,6 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
 **PART 1**
+
 ```import java.io.IOException;
 import java.net.URI;
 
@@ -46,7 +47,7 @@ class ChatServer {
 
 *1. Which methods in your code are called?*
 
-The method `handleRequest` is called.
+For both screenshots above, the method `handleRequest` is called.
 
 *2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
 The relevant argument for the method `handleRequest` is the url
