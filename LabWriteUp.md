@@ -1,7 +1,8 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
 **PART 1**
 
-```import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
