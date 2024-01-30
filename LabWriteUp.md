@@ -59,3 +59,6 @@ For the both screenshots shown above, the relevant argument for the method `hand
 
 The values of all of the fields except `message[0]` and `user[0]` change for each request. This is because `message[0]` always contains the string `"s"`, while `user[0]` always contains the string `"user"`. `String str` always changes because with each valid request, it is updated and a new string is concatenated to it. `String s` also changes with each unique request because it is the query given by the url. Thus, the array `String query[]` must also change with each unique request because it is `String s` split into two different strings. `Message[1] and `user[1] also change with each request because it is the message given in the url and the user who said it. Unless the message is a repeat or the same user sends a message, these values will change.
 
+**PART 2**
+![Image](LR2SS3)
+![Image](LR2SS4)
