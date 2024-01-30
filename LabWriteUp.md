@@ -50,7 +50,9 @@ class ChatServer {
 For both screenshots above, the method `handleRequest` is called.
 
 *2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
-The relevant argument for the method `handleRequest` is the url
+
+For the both screenshots shown above, the relevant argument for the method `handleRequest` is `URI url`, which is the path given in the url. The relevant fields are `String str` (the string that lists all of the messages and the user that said it), `String s` (the string given in the path of the url), and the three string arrays `String[] message`, `String[] User1`, and `String[] User2`. If the URL path contains `/add-message`, then the query following it is split into two different strings and appended to the array `message[]` in the 0 and 1 indexes. The string in `message[0]` is the message given in the query, while the string in `message[`]` is the name of the user who gave the message. In the first screenshot, `message[0]` is `"s=Hello"` and `message[1]` is `"user=Ethan"`.
+
 *3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
 
 
