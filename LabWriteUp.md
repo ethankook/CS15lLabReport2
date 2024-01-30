@@ -60,6 +60,7 @@ For the both screenshots shown above, the relevant argument for the method `hand
 The values of all of the fields except `message[0]` and `user[0]` change for each request. This is because `message[0]` always contains the string `"s"`, while `user[0]` always contains the string `"user"`. `String str` always changes because with each valid request, it is updated and a new string is concatenated to it. `String s` also changes with each unique request because it is the query given by the url. Thus, the array `String query[]` must also change with each unique request because it is `String s` split into two different strings. `Message[1] and `user[1] also change with each request because it is the message given in the url and the user who said it. Unless the message is a repeat or the same user sends a message, these values will change.
 
 **PART 2**
+
 ![Image](LR2SS3.png)
 
 The screenshot above shows the paths for both the public and private keys. The absolute path for the public key is `/Users/ethankook/.ssh/id_rsa.pub`. The absolute path for the private key is `/Users/ethankook/.ssh/id_rsa`.
@@ -69,4 +70,5 @@ The screenshot above shows the paths for both the public and private keys. The a
 The screenshot above shows a terminal interaction where I log into my `ieng6` account without being asked for a password.
 
 **PART 3**
+
 From the labs in week 2 and 3, I learned how to run a server remotely using `javac` to compile the source file, and `java` and a port number to run the server. I also learned about paths, URLs, and queries, and how to use them for your server. I learned how to use `git clone` to clone a repository and how to generate a public and private key using the `ssh-keygen` command. 
