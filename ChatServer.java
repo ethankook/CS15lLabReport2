@@ -12,12 +12,12 @@ class Handler implements URLHandler {
         }
         else {
             if (url.getPath().contains("/add-message")) {
-                String[] message = url.getQuery().split("&");   //[0] = s=Hello, [1] = user=jpolitz
-                String[] User1 = message[0].split("=");     //[0] = s, [1] = Hello
-                String[] User2 = message[1].split("=");     //[0] = user, [1] = jpolitz
+                String[] query = url.getQuery().split("&");   //[0] = s=Hello, [1] = user=jpolitz
+                String[] message = query[0].split("=");     //[0] = s, [1] = Hello
+                String[] user = query[1].split("=");     //[0] = user, [1] = jpolitz
 
-                if (User1[0].equals("s") && User2[0].equals("user")) {
-                    str += String.format("%s: %s \n", User2[1], User1[1]);
+                if (message[0].equals("s") && user[0].equals("user")) {
+                    str += String.format("%s: %s \n", user[1], message[1]);
                     return str;
                 }
             }
