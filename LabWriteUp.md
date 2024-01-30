@@ -27,7 +27,6 @@ class Handler implements URLHandler {
         }
     }
 }
-```
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
@@ -41,6 +40,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
 ![Image](LR2SS1.png)
 ![Image](LR2SS2.png)
 
