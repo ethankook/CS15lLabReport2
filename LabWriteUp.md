@@ -63,8 +63,9 @@ The values of all of the fields except `message[0]` and `user[0]` change for eac
 
 ![Image](LR2SS3.png)
 
-The screenshot above shows the paths for both the public and private keys on my remote account. The absolute path for the public key is `/Users/ethankook/.ssh/id_rsa.pub`. The absolute path for the private key is `/Users/ethankook/.ssh/id_rsa`. 
-The public key on my ieng6 account, however, is `/home/linux/ieng6/oce/0n/ekook/.ssh/authorized_keys`, as we copied the public SSH key onto our remote accounts in the `.ssh` directory, in a file called `authroized_keys`.
+The screenshot above shows the paths for both the public and private keys. The absolute path for the public key is `/Users/ethankook/.ssh/id_rsa.pub`. The absolute path for the private key is `/Users/ethankook/.ssh/id_rsa`. 
+![Image](LR2SS5.png)
+The public key on my ieng6 account, however, is `/home/linux/ieng6/oce/0n/ekook/.ssh/authorized_keys`, as we copied the public SSH key onto our remote accounts in the `.ssh` directory, in a file called `authroized_keys`. The screenshot above shows my working directory, which is `~/.ssh` and the `authorized_keys` file with the public key inside.
 
 ![Image](LR2SS4.png)
 
